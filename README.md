@@ -58,7 +58,7 @@ It is also possible to OCR images from the web using `/ocr-by-filepath` endpoint
 
 ```shell
 curl --location 'http://localhost:8080/tesseract/ocr-by-filepath' \
---form 'fileName="https://github.com/luizcarlosfaria/TesseractOCRWebApi/blob/master/ocr/tests/1.jpg"'
+--form 'fileName="https://raw.githubusercontent.com/luizcarlosfaria/TesseractOCRWebApi/refs/heads/master/ocr/tests/1.jpg"'
 ```
 
 To allow URLs set the corresponding environment variable to `true`:
